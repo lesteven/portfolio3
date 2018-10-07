@@ -1,0 +1,43 @@
+.ig-clone, .volcano, .d3, .misc {
+}
+.ig-clone p, .volcano p, .d3 p, .misc p {
+}
+.projects > div {
+  max-width: 500px;
+  height: 400px;
+  margin: 5% auto;
+  padding: 5%;
+}
+.projects {
+  color: transparent;
+}
+.ig-clone {
+  background: url('/instagram.jpg') center;
+}
+.volcano {
+  background: url('/vbp.jpg') center;
+}
+.d3 {
+  background: url('/d3p.jpg') center;
+}
+.misc {
+  background: url('/gameoflife.jpg') center no-repeat;
+}
+
+.ig-clone:hover {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/instagram.jpg') center;
+  color: white;
+}
+  
+.volcano:hover {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/vbp.jpg') center;
+  color: white;
+}
+.d3:hover {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/d3p.jpg') center;
+  color: white;
+}
+.misc:hover {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/gameoflife.jpg') center;
+  color: white;
+}

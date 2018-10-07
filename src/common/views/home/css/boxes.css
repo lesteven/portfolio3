@@ -5,3 +5,19 @@
 .boxes > div {
   flex: 1;
 }
+.boxes > div:not(.frameworks) {
+  color: white;
+}
+.languages {
+  background-color: #d73a31;
+}
+.skills {
+  background-color: #08798a;
+}
+.frameworks {
+  background-color: #d0d3c5;
+  color: #032b2f;
+}
+.databases {
+  background-color: #032b2f;
+}

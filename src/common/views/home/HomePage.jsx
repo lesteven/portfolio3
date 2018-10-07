@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import MappedBoxes from './components/MappedBoxes';
 
 
 const data = [
   {
+    className: 'languages',
     title: 'Languages',
     descrip: ['JavaScript', 'HTML/CSS', 'Java'],
   },
   {
+    className: 'skills',
     title: 'Skills',
     descrip: [
       'Full stack web development',
@@ -18,10 +20,12 @@ const data = [
 
 const data2 = [
   {
+    className: 'frameworks',
     title: 'Web Frameworks',
     descrip: ['React', 'React-Router', 'Redux', 'Express', 'Node'],
   },
   {
+    className: 'databases',
     title: 'Databases',
     descrip: ['Postgresql', 'MongoDB'],
   },
@@ -30,10 +34,10 @@ const data2 = [
 class HomePage extends Component {
   render() {
     return (
-      <div className = 'page-wrapper'> 
+      <Fragment>
         <MappedBoxes data = { data } />
         <MappedBoxes data = { data2 } />
-      </div>
+      </Fragment>
     )
   }
 }

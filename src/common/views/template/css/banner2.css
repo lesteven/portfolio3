@@ -1,0 +1,56 @@
+.banner2 {
+  background: url('/banner.jpg');
+  background-size: cover;
+  border: 15px solid #032b2f;
+  text-align: left;
+}
+
+.banner2 * {
+  font-family: 'Roboto';
+  color: #f5f5fd;
+  font-weight: normal;
+}
+.banner2 > div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #032b2f;
+  width: 33%;
+  height: 100%;
+}
+.banner2 h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 2% 5%;
+}
+.banner2 h3 {
+  font-size: 24px;
+  padding: 0% 5%;
+}
+.ext-links img {
+  height: 50px; 
+  padding: 5%;
+}
+
+@media only screen and (max-width: 812px) {
+  .banner2 {
+    height: 300px;
+  }
+  .banner2 h1 {
+    font-size: 40px;
+  }
+  .banner2 h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 812px) {
+  .banner2 {
+    height: 325px;
+  }
+  .banner2 h1 {
+    font-size: 50px;
+  }
+  .banner2 h3 {
+    font-size: 24px;
+  }
+}

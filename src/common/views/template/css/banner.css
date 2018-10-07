@@ -1,6 +1,9 @@
 .banner {
   display: flex;
   padding: 5%;
+  background-color: #d73a31;
+  color: #fdfdfd;
+  opacity: 0.9;
 }
 
 .profile, .external-links {

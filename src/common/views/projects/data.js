@@ -1,5 +1,7 @@
 export const rowOneData = [
   {
+    className: 'ig-clone',
+    imgname: 'instagram.jpg',
     title: 'Instagram-clone',
     descrip: [
       'Made with universal react',
@@ -7,6 +9,8 @@ export const rowOneData = [
     ],
   },
   {
+    className: 'volcano',
+    imgname: 'vbp.jpg',
     title: 'Volcano Production',
     descrip: [
       'Production company site',
@@ -18,6 +22,8 @@ export const rowOneData = [
 
 export const rowTwoData = [
   {
+    className: 'd3',
+    imgname: 'd3p.jpg',
     title: 'D3 Projects',
     descrip: [
       'Made with bar graph, heatmap, scatter plot',
@@ -25,6 +31,8 @@ export const rowTwoData = [
     ],
   },
   {
+    className: 'misc',
+    imgname: 'game.png',
     title: 'Miscellaneous',
     descrip: [
       'created game of life with canvas',

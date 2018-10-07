@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import styles from '../css/projects.css';
 
 class Project extends Component {
   render() {
-   const { title, descrip } = this.props.data; 
+   const { imgname, className, title, descrip } = this.props.data; 
     return (
-      <div>
+      <div className = { className }>
         <h3> { title } </h3>
         { descrip.map(points =>
           <p key = { points }> { points } </p>

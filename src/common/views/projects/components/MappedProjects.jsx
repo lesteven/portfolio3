@@ -6,7 +6,7 @@ class MappedProjects extends Component {
   render() {
    const { data } = this.props; 
     return (
-      <div className = 'boxes'>
+      <div className = 'projects'>
         { data.map(each => 
           <Project key = { each.title } data = { each } />)
         }
