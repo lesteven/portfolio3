@@ -3,9 +3,13 @@ import React, { Component } from 'react';
 
 class AboutPage extends Component {
   render() {
-    console.log('about page!');
     return (
-      <div> about page </div>  
+      <div>
+        <p> 
+          Just a guy with aspirations of becoming a 
+          professional developer. 
+        </p>
+      </div>  
     )
   }
 }

@@ -1,0 +1,7 @@
+
+.boxes {
+  display: flex;
+}
+.boxes > div {
+  flex: 1;
+}

@@ -7,7 +7,7 @@ class Template extends Component {
 
   render() {
     return (
-      <div>
+      <div className = 'template-wrapper'>
         <Banner />
         <NavBar />
         { this.props.children }
