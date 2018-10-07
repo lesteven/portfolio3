@@ -1,22 +1,20 @@
-import React, { Component, Fragment } from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
 import styles from './views/sharedCss/app.css';
 import { withRouter } from 'react-router-dom';
 import routes from './routes';
-import MappedRoutes from './views/generalComponents/MappedRoutes';
-
+import MappedRoutes from './views/genComps/MappedRoutes';
+import Template from './views/template/Template';
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
+      <Template>
         <MappedRoutes routes = { routes.routes } />
-      </Fragment>
+      </Template>
     )
   }
 }
 
 
 
-// use withRouter to pass location to App
-export default withRouter(App);
+export default App;

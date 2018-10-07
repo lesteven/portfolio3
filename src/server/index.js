@@ -8,8 +8,6 @@ const app = express();
 
 serverSetup(app);
 
-handleError(app);
-
 // react
 app.use(handleRender);
 

@@ -27,7 +27,7 @@ const routes = {
       prefix,
       homeURL,
       HomePage,
-      exactFalse,
+      exactTrue,
       homeTitle,
     ),
   ],
