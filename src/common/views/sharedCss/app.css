@@ -1,32 +1,25 @@
 @font-face {
-  font-family: 'Pacifico';
-  src: url('../../fonts/Pacifico-Regular.ttf');
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Norican';
-  src: url('../../fonts/Norican-Regular.ttf');
+  font-family: 'Merriweather';
+  src: url('../../fonts/Merriweather-Regular.ttf');
 }
 
 html, body, #root {
-  height:100%;
-  margin:0;
-  text-align:center;
-  background-color:#fafafa;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
 .max-width {
-  margin:auto;
-  max-width:960px;
+  margin: auto;
+  max-width: 960px;
 }
 .top-pad {
-  padding-top:8%;
+  padding-top: 8%;
 }
 
-.fail {
-  color:red;
-}
-
-.success {
-  color:green;
-}

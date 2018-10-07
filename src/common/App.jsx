@@ -8,9 +8,11 @@ import Template from './views/template/Template';
 class App extends Component {
   render() {
     return (
-      <Template>
-        <MappedRoutes routes = { routes.routes } />
-      </Template>
+      <div className = 'max-width'>
+        <Template>
+          <MappedRoutes routes = { routes.routes } />
+        </Template>
+      </div>
     )
   }
 }
