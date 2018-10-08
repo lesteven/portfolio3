@@ -4,8 +4,8 @@
 }
 .projects > div {
   max-width: 500px;
-  height: 400px;
-  margin: 5% auto;
+  height: 350px;
+  margin: 0% auto 8% auto;
   padding: 5%;
 }
 .projects {
@@ -18,7 +18,7 @@
   background: url('/vbp.jpg') center;
 }
 .d3 {
-  background: url('/d3p.jpg') center;
+  background: url('/d3p.jpg') center no-repeat;
 }
 .misc {
   background: url('/gameoflife.jpg') center no-repeat;
@@ -38,6 +38,6 @@
   color: white;
 }
 .misc:hover {
-  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/gameoflife.jpg') center;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/gameoflife.jpg') center no-repeat;
   color: white;
 }

@@ -6,7 +6,7 @@ class Banner extends Component {
   render() {
     return (
       <div className = 'banner2'>
-        <div>
+        <div className = 'banner-info'>
           <h1> Steven Le </h1>
           <h3> Entry Level Developer </h3>
           <div className = 'ext-links'>
@@ -17,6 +17,8 @@ class Banner extends Component {
               <img src = 'linkedin.svg' />
             </a>
           </div>
+        </div>
+        <div className = 'banner-image'>
         </div>
       </div>
     )

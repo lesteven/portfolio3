@@ -4,6 +4,8 @@
 }
 .boxes > div {
   flex: 1;
+  margin: 2%;
+  padding: 3%;
 }
 .boxes > div:not(.frameworks) {
   color: white;

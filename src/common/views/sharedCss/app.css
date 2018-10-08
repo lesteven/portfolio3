@@ -18,7 +18,7 @@ html, body, #root {
 .max-width {
   margin: auto;
   max-width: 960px;
-  padding-bottom: 25%;
+  padding-bottom: 50px;
 }
 .top-pad {
   padding-top: 8%;

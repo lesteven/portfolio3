@@ -1,10 +1,16 @@
 .banner2 {
-  background: url('/banner.jpg');
   background-size: cover;
   border: 15px solid #032b2f;
   text-align: left;
+  display: flex;
 }
-
+.banner-info {
+  flex: 1;
+}
+.banner-image {
+  background: url('/banner2.jpg') no-repeat;
+  flex: 2;
+}
 .banner2 * {
   font-family: 'Roboto';
   color: #f5f5fd;
@@ -42,10 +48,16 @@
   .banner2 h3 {
     font-size: 18px;
   }
+  .banner-image {
+    background-size: auto 100%;
+  }
 }
 @media only screen and (min-width: 812px) {
+  .banner-image {
+    background-size: 100%;
+  }
   .banner2 {
-    height: 325px;
+    height: 300px;
   }
   .banner2 h1 {
     font-size: 50px;

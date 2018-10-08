@@ -2,6 +2,7 @@
 .nav-bar {
   display: flex;
   padding: 5% 0%;
+  justify-content: space-around;
 }
 .nav-bar * {
   flex: 1;
@@ -13,4 +14,5 @@
   border: 1px solid black;
   background-color: #032b2f;
   border-radius: 10px;
+  max-width: 180px;
 }
