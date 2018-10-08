@@ -7,6 +7,12 @@ export const rowOneData = [
       'Made with universal react',
       'Postgresql backend',
     ],
+    links : [
+      {
+        title: 'Instagram Clone',
+        link: '',
+      }
+    ],
   },
   {
     className: 'volcano',
@@ -15,7 +21,13 @@ export const rowOneData = [
     descrip: [
       'Production company site',
       'Made custom cms',
-      'Has blog funcionalities',
+      'Has blog functionalities',
+    ],
+    links : [
+      {
+        title: 'Volcano Production',
+        link: '',
+      }
     ],
   },
 ];
@@ -29,6 +41,24 @@ export const rowTwoData = [
       'Made with bar graph, heatmap, scatter plot',
       'and world map with D3 library',
     ],
+    links : [
+      {
+        title: 'Bar Graph',
+        link: 'https://lesteven.github.io/bar-chart',
+      },
+      {
+        title: 'Scatter Plot',
+        link: 'https://lesteven.github.io/scatterplot',
+      },
+      {
+        title: 'Head Map',
+        link: 'https://lesteven.github.io/heatmap',
+      },
+      {
+        title: 'World Map',
+        link: 'https://lesteven.github.io/globe',
+      },
+    ],
   },
   {
     className: 'misc',
@@ -37,6 +67,16 @@ export const rowTwoData = [
     descrip: [
       'created game of life with canvas',
       'made rogulike ascii game with rot.js',
+    ],
+    links : [
+      {
+        title: 'Game Of Life',
+        link: 'https://lesteven.github.io/gameoflifev2/',
+      },
+      {
+        title: 'Rogue Like',
+        link: 'https://lesteven.github.io/roguelike/',
+      },
     ],
   },
 ];
