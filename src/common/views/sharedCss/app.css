@@ -14,15 +14,17 @@ html, body, #root {
   text-align: center;
   background-color: #fdfdfd;
 }
-
 .max-width {
   margin: auto;
   max-width: 960px;
-  padding-bottom: 50px;
 }
 .top-pad {
   padding-top: 8%;
 }
 .page-wrapper {
   padding: 5%;
+}
+.bottom {
+  height: 200px;
+  background-color: #d73a31;
 }
