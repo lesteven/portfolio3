@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './css/aboutPage.css';
 import Matrix from '../animations/components/Matrix';
-import data from './data';
+import data from './data2';
 
 class AboutPage extends Component {
   render() {

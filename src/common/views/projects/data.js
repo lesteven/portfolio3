@@ -38,7 +38,7 @@ export const rowTwoData = [
     imgname: 'd3p.jpg',
     title: 'D3 Projects',
     descrip: [
-      'Made with bar graph, heatmap, scatter plot',
+      'Made bar graph, heatmap, scatter plot',
       'and world map with D3 library',
     ],
     links : [

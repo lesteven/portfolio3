@@ -22,7 +22,7 @@ const data2 = [
   {
     className: 'frameworks',
     title: 'Web Frameworks',
-    descrip: ['React', 'React-Router', 'Redux', 'Express', 'Node'],
+    descrip: ['React', 'Redux', 'Express', 'Node'],
   },
   {
     className: 'databases',
