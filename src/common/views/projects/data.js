@@ -51,7 +51,7 @@ export const rowTwoData = [
         link: 'https://lesteven.github.io/scatterplot',
       },
       {
-        title: 'Head Map',
+        title: 'Heat Map',
         link: 'https://lesteven.github.io/heatmap',
       },
       {
