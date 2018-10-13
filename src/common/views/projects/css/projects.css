@@ -29,16 +29,16 @@
 .projects :hover {
   color: white;
 }
-.ig-clone:hover {
+.ig-clone:hover, .ig-clone:active {
   background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/instagram.jpg') center;
 }
   
-.volcano:hover {
+.volcano:hover, .volcano:active {
   background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/vbp.jpg') center;
 }
-.d3:hover {
+.d3:hover, .d3:active {
   background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/d3p.jpg') center;
 }
-.misc:hover {
+.misc:hover, .misc:active {
   background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('/gameoflife.jpg') center no-repeat;
 }
