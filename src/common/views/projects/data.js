@@ -10,7 +10,7 @@ export const rowOneData = [
     links : [
       {
         title: 'Instagram Clone',
-        link: '',
+        link: 'https://igclone.imstevenle.com',
       }
     ],
   },
