@@ -27,7 +27,7 @@ const data2 = [
   {
     className: 'databases',
     title: 'Databases',
-    descrip: ['Postgresql', 'MongoDB'],
+    descrip: ['PostgreSQL', 'MongoDB'],
   },
 
 ]
