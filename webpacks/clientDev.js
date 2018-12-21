@@ -11,6 +11,7 @@ module.exports = merge(common, {
     contentBase: './src/client',
     inline: true,
     port: 8080, 
+    disableHostCheck: true,
     proxy: {
       '**': {
         target: 'http://localhost:3000',

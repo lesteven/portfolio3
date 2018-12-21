@@ -1,14 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import MappedProjects from './components/MappedProjects';
 import { rowOneData, rowTwoData } from './data';
-
+import ProjectV2 from './components/ProjectV2';
 
 class ProjectsPage extends Component {
   render() {
     return (
       <Fragment>
-        <MappedProjects data = { rowOneData } />
-        <MappedProjects data = { rowTwoData } />
+        <ProjectV2 />
       </Fragment>
     )
   }
