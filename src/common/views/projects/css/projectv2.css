@@ -1,7 +1,52 @@
 .project {
   display: flex;
+  overflow: hidden;
+  margin: 5%;
+}
+.project a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 2%;
 }
 .project * {
   flex: 1;
-  max-width: 400px;
+}
+.project-pix {
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-pix a {
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  background-color: black;
+  color: white;
+  padding: 3%;
+  font-size: 18px;
+  margin: auto;
+}
+.project li {
+  padding: 2%;
+}
+.project ul {
+  text-align: left;
+}
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width: 700px) {
+  .project {
+  }
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 700px) {
+  .project {
+    flex-direction: column;
+  }
 }
