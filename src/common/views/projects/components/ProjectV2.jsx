@@ -4,7 +4,7 @@ import styles from '../css/projectv2.css';
 
 class ProjectV2 extends Component {
   render() {
-    const { img, title, link, descrip } = this.props.data;
+    const { img, title, link, descrip, github } = this.props.data;
     const imgStyle = {
       backgroundImage: `url(${img})`,
     }
@@ -16,6 +16,7 @@ class ProjectV2 extends Component {
         <div>
           <h2> { title }</h2>
           <a href = { link }> Click here to visit!  </a>
+          <a href = { github }> GitHub repository </a>
           <ul>
           { descrip.map((each,index) => 
               <li key = { index }> { each } </li>) }

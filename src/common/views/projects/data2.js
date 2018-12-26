@@ -4,6 +4,7 @@ const data = [
     img: '/instagram.jpg',
     title: 'Instagram Clone',
     link: 'https://igclone.imstevenle.com',
+    github: 'https://github.com/lesteven/instagram-clone',
     descrip: [
       'Reverse engineered Instagram website.',
       'Built with React, Redux, Node and PostgreSQL.',
@@ -15,6 +16,7 @@ const data = [
     img: 'visuals.jpg',
     title: 'Photography Site',
     link: 'https://visuals.imstevenle.com',
+    github: 'https://github.com/lesteven/visuals',
     descrip: [
       'Built with React, Redux, and Node.',
       'React-responsive-carousel used to build slide-show.',
@@ -25,6 +27,7 @@ const data = [
     img: 'blog2.jpg',
     title: 'Blog',
     link: 'https://blog.imstevenle.com',
+    github: 'https://github.com/lesteven/blog',
     descrip: [
       'Built with React, Redux, Node and MongoDB.',
       'Draft.js used for WYSIWYG editor for blog posts.',
@@ -36,6 +39,7 @@ const data = [
     img: 'rest.jpg',
     title: 'Restaurant Site',
     link: 'https://rest.imstevenle.com',
+    github: 'https://github.com/lesteven/restaurant',
     descrip: [
       'Built with React, Redux, and Node.',
       'Simple one page website.',
