@@ -22,7 +22,7 @@ const data = [
     ],
   },
   {
-    img: 'blog.jpg',
+    img: 'blog2.jpg',
     title: 'Blog',
     link: 'https://blog.imstevenle.com',
     descrip: [
