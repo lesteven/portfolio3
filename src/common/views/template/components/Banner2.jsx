@@ -11,7 +11,7 @@ class Banner extends Component {
           <h3> Entry Level Developer </h3>
           <div className = 'ext-links'>
             <a href = 'https://www.github.com/lesteven'>
-              <img src = 'github.svg' />
+              <img className = 'gh-icon'src = 'Octocat.jpg' />
             </a>
             <a href = 'https://www.linkedin.com/in/stevennle'>
               <img src = 'linkedin.svg' />

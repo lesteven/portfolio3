@@ -15,7 +15,7 @@ class Banner extends Component {
         </div>
         <div className = 'external-links'>
           <a href = 'https://www.github.com/lesteven'>
-            <img src = 'github.svg' />
+            <img src = 'gh.svg' />
           </a>
           <a href = 'https://www.linkedin.com/in/stevennle'>
             <img src = 'linkedin.svg' />
