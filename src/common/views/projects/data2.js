@@ -46,6 +46,16 @@ const data = [
       'Mobile friendly design.',
     ],
   },
+  {
+    img: 'css-images.jpg',
+    title: 'CSS Showcase',
+    link: 'https://images.imstevenle.com',
+    github: 'https://github.com/lesteven/css-showcase',
+    descrip: [
+      'A collection of images made with pure CSS',
+      'Also some CSS animations as well.',
+    ],
+  },
 ]
 
 
