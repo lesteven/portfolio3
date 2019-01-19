@@ -22,7 +22,6 @@
   flex: 1;
 }
 .project-pix {
-  height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,6 +47,9 @@
 /* DESKTOP VIEW */
 
 @media only screen and (min-width: 700px) {
+  .project-pix {
+    height: 350px;
+  }
   .project {
   }
 }
@@ -55,6 +57,9 @@
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 700px) {
+  .project-pix {
+    height: 250px;
+  }
   .project {
     flex-direction: column;
     border-bottom: 1px solid #032b2f;
