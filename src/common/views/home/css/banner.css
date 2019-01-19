@@ -1,0 +1,31 @@
+.banner-wrapper {
+}
+.banner {
+  padding: 3%;
+  font-family: RockSalt;
+  color: white;
+}
+
+/* DESKTOP VIEW */
+@media only screen and (min-width:500px) {
+  .banner h1 {
+    letter-spacing: 5px;
+    font-size: 60px;
+  }
+  .banner h2 {
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width:500px) {
+  .banner h1 {
+    letter-spacing: 5px;
+    font-size: 50px;
+  }
+  .banner h2 {
+    letter-spacing: 1px;
+    font-size: 40px;
+  }
+}

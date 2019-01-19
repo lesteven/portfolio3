@@ -2,6 +2,14 @@
 .boxes {
   display: flex;
 }
+.boxes > * {
+  box-shadow: 5px 5px 5px var(--off-black);
+  border-radius: 10px;
+  position: relative;
+}
+.box:hover {
+  top: -10%;
+}
 .boxes > div {
   flex: 1;
   margin: 2%;
@@ -22,4 +30,18 @@
 }
 .databases {
   background-color: #032b2f;
+}
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width:600px) {
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:600px) {
+  .boxes {
+    flex-direction: column;
+    padding: 10%;
+  }
 }

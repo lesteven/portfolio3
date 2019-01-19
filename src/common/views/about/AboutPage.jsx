@@ -6,7 +6,7 @@ import data from './data';
 class AboutPage extends Component {
   render() {
     return (
-      <div className = 'about-me'>
+      <div className = 'about-me pad'>
         { data.map((line, index) => <p key = { index }> { line } </p>)}
       </div>  
     )

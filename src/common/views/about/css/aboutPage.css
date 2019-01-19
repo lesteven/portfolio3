@@ -1,8 +1,10 @@
 .about-me {
   text-align: left;
-  white-space: pre-wrap;
   max-width: 600px;
-  margin: auto;
-  font-size: 18px;
-  font-family: 'Roboto';
+  margin: 5% auto;
+  font-size: 20px;
+  background: var(--nav-color); 
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--off-black);
 }
