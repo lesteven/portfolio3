@@ -22,6 +22,7 @@ html, body, #root {
   text-align: center;
   overflow: auto;
   font-family: Roboto;
+  -webkit-overflow-scrolling: touch;
 }
 body {
   background: url(../../../../imgs/palm.jpg) no-repeat center;
