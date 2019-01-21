@@ -6,7 +6,10 @@ class Banner extends Component {
     return (
       <div className = 'banner-wrapper'>
         <div className = 'banner max-width'>
-          <h1> Steven Le </h1>
+          <div className = 'name-img'>
+            <h1> Steven Le </h1>
+            <img src = '/me.jpg'/>
+          </div>
           <h2> JavaScript Developer </h2>
         </div>
       </div>
