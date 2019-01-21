@@ -1,0 +1,49 @@
+.banner-wrapper {
+}
+.banner {
+  padding: 3%;
+  font-family: RockSalt;
+  color: white;
+}
+.name-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-img * {
+  margin: 2%;
+}
+.name-img img {
+  border-radius: 50%;
+  height: 200px;
+  border: 7px solid var(--off-white);
+}
+/* DESKTOP VIEW */
+@media only screen and (min-width:500px) {
+  .banner h1 {
+    letter-spacing: 5px;
+    font-size: 60px;
+  }
+  .banner h2 {
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width:500px) {
+  .banner h1 {
+    letter-spacing: 5px;
+    font-size: 50px;
+  }
+  .banner h2 {
+    letter-spacing: 1px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .name-img {
+    flex-direction: column;
+  }
+}

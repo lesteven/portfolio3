@@ -1,43 +1,22 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import Banner from './components/Banner';
 import MappedBoxes from './components/MappedBoxes';
+import data from './data';
+import style from './css/home.css';
 
-
-const data = [
-  {
-    className: 'languages',
-    title: 'Languages',
-    descrip: ['JavaScript', 'HTML/CSS', 'Java'],
-  },
-  {
-    className: 'skills',
-    title: 'Skills',
-    descrip: [
-      'Full stack web development',
-      'Test driven development'
-    ],
-  },
-];
-
-const data2 = [
-  {
-    className: 'frameworks',
-    title: 'Web Frameworks',
-    descrip: ['React', 'Redux', 'Express', 'Node'],
-  },
-  {
-    className: 'databases',
-    title: 'Databases',
-    descrip: ['PostgreSQL', 'MongoDB'],
-  },
-
-]
 class HomePage extends Component {
   render() {
+  const bg = {
+    background: "url('./palm.jpg') no-repeat center",
+    backgroundSize: 'cover',
+  }
     return (
-      <Fragment>
-        <MappedBoxes data = { data } />
-        <MappedBoxes data = { data2 } />
-      </Fragment>
+      <div className = 'home' >
+        <div className = 'max-width'>
+          <Banner />
+          <MappedBoxes data = { data } />
+        </div>
+      </div>
     )
   }
 }

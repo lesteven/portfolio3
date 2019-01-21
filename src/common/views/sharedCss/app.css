@@ -1,3 +1,7 @@
+:root {
+  --off-black: #2b2b2b;
+  --off-white: #fdfdfd;
+}
 @font-face {
   font-family: 'Roboto';
   src: url('../../fonts/Roboto-Regular.ttf');
@@ -8,23 +12,43 @@
   src: url('../../fonts/Merriweather-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'RockSalt';
+  src: url('../../fonts/RockSalt-Regular.ttf');
+}
 html, body, #root {
   height: 100%;
   margin: 0;
   text-align: center;
-  background-color: #fdfdfd;
+  overflow: auto;
+  font-family: Roboto;
+}
+body {
+  background: url(../../../../imgs/palm.jpg) no-repeat center;
 }
 .max-width {
   margin: auto;
   max-width: 960px;
+  box-sizing: border-box;
 }
-.top-pad {
-  padding-top: 8%;
+.pad {
+  padding: 3%;
 }
 .page-wrapper {
-  padding: 5%;
+  padding: 3% 5%;
+  box-sizing: border-box;
 }
 .bottom {
   height: 200px;
-  background-color: #d73a31;
 }
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width:500px) {
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:500px) {
+}
+

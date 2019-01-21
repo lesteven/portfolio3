@@ -1,14 +1,14 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import ProjectV2 from './components/ProjectV2';
 import data from './data2';
 
 class ProjectsPage extends Component {
   render() {
     return (
-      <Fragment>
+      <div className = 'max-width pad'>
         { data.map((each, index) => 
             <ProjectV2 key = { index } data = { each } />) }
-      </Fragment>
+      </div>
     )
   }
 }

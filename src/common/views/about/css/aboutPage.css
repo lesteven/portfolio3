@@ -1,8 +1,63 @@
 .about-me {
   text-align: left;
-  white-space: pre-wrap;
-  max-width: 600px;
-  margin: auto;
-  font-size: 18px;
-  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+}
+.about-wrapper {
+  margin: 5% auto;
+  box-shadow: 5px 5px 5px var(--off-black);
+  display: flex;
+  flex-direction: row-reverse;
+  background: var(--nav-color); 
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 90%;
+}
+.about-wrapper > * {
+  flex: 1;
+  padding: 2%;
+}
+.about-img {
+  display: flex;
+  align-items: center;
+  color: var(--off-white);
+  font-size: 20px;
+}
+.about-img * {
+  padding: 2%;
+}
+
+.images a > img {
+  width: 15%;
+  transition: all 1s;
+}
+.images a > img:hover {
+  transform: scale(1.2,1.2);
+}
+.about-img a {
+  color: var(--off-white);
+  text-decoration: none;
+  margin: 5%;
+}
+.images > img:first-child {
+  width: 95%;
+  border-radius: 20px;
+}
+.images > p {
+  margin: 0;
+}                                                             
+/* DESKTOP VIEW */
+
+@media only screen and (min-width:812px) {
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:812px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .about-img {
+    border-bottom: 3px solid var(--off-white);
+  }
 }

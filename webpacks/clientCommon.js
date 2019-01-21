@@ -30,7 +30,7 @@ module.exports = merge(common, {
         ]
       },
       {
-        test: /\.ttf$/,
+        test: /\.(ttf|jpg)$/,
         use: 'file-loader',
 
       }

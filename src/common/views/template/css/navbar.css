@@ -1,17 +1,26 @@
+:root {
+  --nav-color: #032b2f; 
+}
 
+.nav-wrapper {
+  background-color: var(--nav-color);
+}
 .nav-bar {
   display: flex;
-  padding: 5% 0% 0% 0%;
-  justify-content: space-around;
+  justify-content: flex-end;
+  padding: 0 3%;
+  box-sizing: border-box;
 }
 .nav-bar * {
   flex: 1;
-  margin: 1%;
-  padding: 3%;
+  padding: 1.5%;
+  margin: 0 1%;
   font-size: 24px;
   text-decoration: none;
   color: #fdfdfd;
-  background-color: #032b2f;
-  border-radius: 10px;
-  max-width: 180px;
+  max-width: 150px;
+}
+.nav-bar *:hover {
+  background: var(--off-white);
+  color: var(--nav-color);
 }

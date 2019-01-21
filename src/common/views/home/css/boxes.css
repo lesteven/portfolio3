@@ -2,9 +2,17 @@
 .boxes {
   display: flex;
 }
+.boxes > * {
+  box-shadow: 5px 5px 5px var(--off-black);
+  border-radius: 10px;
+  position: relative;
+  transition: all .5s; 
+}
+.box:hover {
+  transform: translate(0,-10%);
+}
 .boxes > div {
   flex: 1;
-  margin: 2%;
   padding: 3%;
 }
 .boxes > div:not(.frameworks) {
@@ -22,4 +30,24 @@
 }
 .databases {
   background-color: #032b2f;
+}
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width:600px) {
+  .box {
+    margin: 2%;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:600px) {
+  .boxes {
+    flex-direction: column;
+    padding: 10%;
+  }
+  .box {
+    margin: 5%;
+  }
 }
