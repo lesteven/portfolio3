@@ -13,15 +13,16 @@
 }
 
 @font-face {
-  font-family: 'RockSalt';
-  src: url('../../fonts/RockSalt-Regular.ttf');
+  font-family: 'Ubuntu';
+  src: url('../../fonts/Ubuntu-Regular.ttf');
 }
+
 html, body, #root {
   height: 100%;
   margin: 0;
   text-align: center;
   overflow: auto;
-  font-family: Roboto;
+  font-family: Ubuntu;
   -webkit-overflow-scrolling: touch;
 }
 body {

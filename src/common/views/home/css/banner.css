@@ -2,8 +2,9 @@
 }
 .banner {
   padding: 3%;
-  font-family: RockSalt;
   color: white;
+}
+.banner * {
 }
 .name-img {
   display: flex;
@@ -21,24 +22,20 @@
 /* DESKTOP VIEW */
 @media only screen and (min-width:500px) {
   .banner h1 {
-    letter-spacing: 5px;
-    font-size: 60px;
+    font-size: 70px;
   }
   .banner h2 {
-    letter-spacing: 1px;
-    font-size: 50px;
+    font-size: 55px;
   }
 }
 
 /* MOBILE VIEW */
 @media only screen and (max-width:500px) {
   .banner h1 {
-    letter-spacing: 5px;
-    font-size: 40px;
+    font-size: 60px;
   }
   .banner h2 {
-    letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
