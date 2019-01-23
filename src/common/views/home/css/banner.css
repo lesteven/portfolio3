@@ -4,7 +4,8 @@
   padding: 3%;
   color: white;
 }
-.banner * {
+.banner h2 {
+  margin: 2%;
 }
 .name-img {
   display: flex;
@@ -22,10 +23,10 @@
 /* DESKTOP VIEW */
 @media only screen and (min-width:500px) {
   .banner h1 {
-    font-size: 70px;
+    font-size: 65px;
   }
   .banner h2 {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 

@@ -34,15 +34,18 @@
 
 /* DESKTOP VIEW */
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width: 700px) {
   .box {
     margin: 2%;
+  }
+  .boxes {
+    padding: 5% 0%;
   }
 }
 
 /* MOBILE VIEW */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 700px) {
   .boxes {
     flex-direction: column;
     padding: 10%;
