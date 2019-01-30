@@ -27,6 +27,7 @@ html, body, #root {
 }
 body {
   background: url(../../../../imgs/palm.jpg) no-repeat center;
+  background-size: cover;
 }
 .max-width {
   margin: auto;
