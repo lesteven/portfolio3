@@ -16,7 +16,7 @@ class AboutPage extends Component {
             <a href = 'https://github.com/lesteven'>
               <img src = '/gh.svg'/>
             </a>
-            <p> Le_steven@outlook.com </p>
+            <p> stevenledev@gmail.com </p>
           </div>
         </div>
         <div className = 'about-me'>

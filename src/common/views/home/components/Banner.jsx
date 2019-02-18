@@ -10,7 +10,7 @@ class Banner extends Component {
             <h1> Steven Le </h1>
             <img src = '/me.jpg'/>
           </div>
-          <h2> JavaScript Developer </h2>
+          <h2> Software Developer </h2>
         </div>
       </div>
     )
