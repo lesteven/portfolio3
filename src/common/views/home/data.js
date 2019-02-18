@@ -5,22 +5,23 @@ const data = [
       descrip: ['JavaScript', 'HTML/CSS', 'Java'],
     },
     {
-      className: 'skills',
-      title: 'Skills',
+      className: 'front-end',
+      title: 'Front-End',
       descrip: [
-        'Full stack web development',
-        'Test driven development'
-      ],
+        'React.js',
+        'React-Router.js',
+        'Redux.js',
+      ]
     },
     {
-      className: 'frameworks',
-      title: 'Web Frameworks',
-      descrip: ['React', 'Redux', 'Express', 'Node'],
+      className: 'back-end',
+      title: 'Back-End',
+      descrip: ['Node.js', 'Express.js', 'PostgreSQL', 'MongoDB'],
     },
     {
-      className: 'databases',
-      title: 'Databases',
-      descrip: ['PostgreSQL', 'MongoDB'],
+      className: 'devops',
+      title: 'DevOps',
+      descrip: ['Linux', 'Nginx', 'DigitalOcean'],
     },
 ]
 export default data;
